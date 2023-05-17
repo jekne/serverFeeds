@@ -8,7 +8,7 @@ const key = "gzes58qjwyyt";
 const secret =
   "wwx4b7ys5n87xfuqgyqn57uc5y7p5qjqzquxn9j9aw7bu3dbxnvua5xk98z5nnx8";
 APP_ID = 1202347;
-// console.log("app key", key);
+console.log("app key", key);
 const serverClient = stream.connect(key, secret, APP_ID);
 
 router.post("/", async (req, res) => {
